@@ -17,10 +17,10 @@ function App() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if(word===userInput){
-      setResult("You Won!")
+      setResult("You won!")
     }
     else{
-      setResult("You Lost!")
+      setResult("You lost!")
     }
   };
   const handleInputChange = (e) => {
